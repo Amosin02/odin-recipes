@@ -1,7 +1,22 @@
-.recipe{
-    color: yellow;
+body{
+    background-color: rgb(255, 255, 255);
 }
 
-body{
-    background-color: rgb(26, 150, 1);
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
 }
